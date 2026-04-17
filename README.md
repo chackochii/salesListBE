@@ -49,10 +49,20 @@ PostgreSQL Instance (Local or DigitalOcean Managed)
 3. Environment Configuration
 
    PORT=8080
+
+   
    DB_HOST=your-do-host.ondigitalocean.com
+
+   
    DB_PORT=25060
+
+   
    DB_USER=doadmin
+
+   
    DB_PASSWORD=your_password
+
+   
    DB_NAME=defaultdb
 
 4. Start the Server
