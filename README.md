@@ -12,26 +12,26 @@ ES Modules (ESM): Utilizing modern import/export syntax.
 
 backend/
 ├── config/
-│   └── db.config.js        # Sequelize & SSL configuration
+│   └── db.config.js        
 ├── environments/
-│   ├── .env                # Environment variables (Ignored by Git)
-│   └── ca-certificate.crt  # DigitalOcean SSL Certificate (Ignored by Git)
+│   ├── .env                
+│   └── ca-certificate.crt  
 ├── modules/
-│   ├── user/               # User Model & Logic
-│   ├── country/            # Country Model & Logic
-│   ├── city/               # City Model (Cascading filtering)
-│   ├── product/            # Product Model & Pricing logic
-│   ├── salesMaster/        # Header Model
-│   ├── salesDetails/       # Transaction Lines Model
-│   ├── sales/              # Business Logic (Transactions/List)
-│   └── index.js            # The "Glue" (Database associations)
+│   ├── user/             
+│   ├── country/           
+│   ├── city/               
+│   ├── product/           
+│   ├── salesMaster/       
+│   ├── salesDetails/      
+│   ├── sales/            
+│   └── index.js           
 ├── routes/
-│   ├── index.js            # Main V1 Route Orchestrator
-│   ├── saleRoutes.js       # Sales endpoints
-│   ├── cityRoutes.js       # Location endpoints
-│   └── ...                 # Other feature routes
-├── app.js                  # Express middleware setup
-└── server.js               # Application entry point
+│   ├── index.js          
+│   ├── saleRoutes.js
+│   ├── cityRoutes.js    
+│   └── ...                 
+├── app.js                
+└── server.js        
 
 
 🛠️ Setup & Installation
