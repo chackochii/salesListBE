@@ -1,0 +1,27 @@
+# dependencies
+/node_modules
+
+# env
+.env
+
+# logs
+logs
+*.log
+npm-debug.log*
+
+# runtime
+pids
+*.pid
+*.seed
+
+# coverage
+/coverage
+
+# build
+/dist
+
+# macOS
+.DS_Store
+
+# vscode
+.vscode/
